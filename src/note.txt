@@ -1,0 +1,23 @@
+1. npm install react-facebook-login --legacy-peer-deps
+
+https://stackoverflow.com/questions/65549858/eresolve-unable-to-resolve-dependency-tree-when-installing-npm-react-facebook
+
+2. npm i axios --legacy-peer-deps
+
+3. Tạo 1 tài khoản: https://developers.facebook.com/
+
+4. Create App
+
+5. Facebook Login --> Setup
+- Settings:
+
+    + Login with the JavaScript SDK: Yes
+    + Allowed Domains for the JavaScript SDK: localhost:3000
+=> Save
+
+6. Coppy id app: 644269203827889
+
+7.     "start": "set HTTPS=true && react-scripts start",
+MAC: HTTPS=true npm start in terminal
+
+8. localStorage
